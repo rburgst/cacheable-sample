@@ -1,0 +1,6 @@
+micronaut:
+    application:
+        name: cacheable-sample
+    caches:
+        num-cache:
+            expire-after-write: 10m
